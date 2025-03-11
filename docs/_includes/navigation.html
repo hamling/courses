@@ -1,0 +1,31 @@
+<nav>
+  <h2>Courses</h2>
+  <ul>
+    <li><a href="{{ site.baseurl }}/">Home</a></li>
+    <li>
+      <a href="{{ site.baseurl }}/cpp-intro/">Intro to C++</a>
+      {% if page.url contains '/cpp-intro/' %}
+      <ul>
+        <li><a href="{{ site.baseurl }}/cpp-intro/setup/">Setup</a></li>
+        <li><a href="{{ site.baseurl }}/cpp-intro/fundamentals/">Fundamentals</a></li>
+        <li><a href="{{ site.baseurl }}/cpp-intro/arrays/">Arrays</a></li>
+        <li><a href="{{ site.baseurl }}/cpp-intro/assignments/">Assignments</a></li>
+      </ul>
+      {% endif %}
+    </li>
+    <li>
+      <a href="{{ site.baseurl }}/machine-learning/">Machine Learning</a>
+      {% if page.url contains '/machine-learning/' %}
+      <ul>
+        <li><a href="{{ site.baseurl }}/machine-learning/setup/">Setup</a></li>
+        <li><a href="{{ site.baseurl }}/machine-learning/fundamentals/">Fundamentals</a></li>
+        <li><a href="{{ site.baseurl }}/machine-learning/projects/">Projects</a></li>
+      </ul>
+      {% endif %}
+    </li>
+    <li><a href="{{ site.baseurl }}/creative-robotics/">Creative Robotics</a></li>
+    <li><a href="{{ site.baseurl }}/3d-animation/">3D Animation</a></li>
+    <li><a href="{{ site.baseurl }}/game-development/">Game Development</a></li>
+    <li><a href="{{ site.baseurl }}/web-development/">Web Development</a></li>
+  </ul>
+</nav>
