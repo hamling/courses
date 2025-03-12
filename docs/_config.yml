@@ -1,6 +1,6 @@
-remote_theme: pages-themes/primer
+remote_theme: just-the-docs/just-the-docs
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 
 title: "Computer Science Courses"
 description: "Course materials for CS classes"
@@ -8,6 +8,12 @@ description: "Course materials for CS classes"
 # Build settings
 markdown: kramdown
 highlighter: rouge
+
+# Just the Docs specific settings
+color_scheme: dark
+search_enabled: true
+heading_anchors: true
+
 
 # Default layout
 defaults:
