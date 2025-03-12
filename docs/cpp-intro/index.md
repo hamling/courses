@@ -1,5 +1,9 @@
 ---
+layout: default
 title: Introduction to C++
+nav_order: 2
+has_children: true
+permalink: /courses/cpp-intro/
 ---
 
 # Introduction to C++

@@ -5,6 +5,8 @@ plugins:
 title: "Computer Science Courses"
 description: "Course materials for CS classes"
 
+baseurl: "/courses"
+
 # Build settings
 markdown: kramdown
 highlighter: rouge

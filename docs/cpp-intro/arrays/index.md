@@ -3,7 +3,7 @@ layout: default
 title: Array Class
 nav_order: 2
 has_children: true
-permalink: /array/
+permalink: /courses/cpp-intro/arrays/
 ---
 
 # The Array Class
